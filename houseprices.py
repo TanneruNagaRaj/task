@@ -62,6 +62,7 @@ print("Testing score : ",model.score(X_test,Y_test))
 from sklearn.metrics import r2_score
 print("R2 score :",r2_score(Y_test,ypredict))
 
+"""
 rsquare = sum((ypredict-y)**2)/sum((Y_test-y)**2)
 print("r",rsquare)
 
@@ -81,3 +82,4 @@ def compute_r2():
     r2_score = 1 - (sse / tse)
     print(r2_score)
 compute_r2()
+"""
